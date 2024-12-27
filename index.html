@@ -35,6 +35,65 @@
             <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+
+    <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+    </button>
+
+    <div class="mobile-menu is-ope">
+        <div class="container mobile-menu-container">
+            <button class="mobile-menu-close">
+                <svg class="close-icon-mob" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-mobile-menu"></use>
+                </svg>
+            </button>
+            <ul class="list-mobile">
+                <li class="item-mobile"><a href="" class="mobile-link current">Studio</a></li>
+                <li class="item-mobile"><a href="" class="mobile-link">Portfolio</a></li>
+                <li class="item-mobile"><a href="" class="mobile-link">Contacts</a></li>
+            </ul>
+            <address class="contacts-mobile">
+                <ul class="list-contacts-mobile">
+                    <li class="item-contacts-mobile"><a class="contacts-mobile-link current" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="item-contacts-mobile"><a class="contacts-mobile-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+            <div class="social-container-mobile">
+                <ul class="social-list-mobile">
+                    <li class="social-item-mobile">
+                        <a href="" class="social-link-mobile">
+                            <svg class="social-icons-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a href="" class="social-link-mobile">
+                            <svg class="social-icons-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a href="" class="social-link-mobile">
+                            <svg class="social-icons-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a href="" class="social-link-mobile">
+                            <svg class="social-icons-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     </div>
     </header>
 
@@ -107,7 +166,8 @@
             <h2 class="team-section-title">Our Team</h2>
             <ul class="team-list">
                 <li class="team-item">
-                    <img src="./images/markguerrero.jpg" alt="Mark Guerrero avatar" width="264" height="260" />
+                    <img src="./images/retina/markguerrero1.jpg"
+                    srcset="./images/retina/markguerrero@2x.jpg" alt="Mark Guerrero avatar" width="264" height="260" />
                     <div class="card-team">
                     <h3 class="team-card-title">Mark Guerrero</h3>
                     <p class="team-text">Product Designer</p>
@@ -145,7 +205,8 @@
                 </li>
             
                 <li class="team-item">
-                    <img src="./images/tomford.jpg" alt="Tom Ford avatar" width="264" height="260" />
+                    <img src="./images/retina/tomford1.jpg"
+                    srcset="./images/retina/tomford@2x.jpg" alt="Tom Ford avatar" width="264" height="260" />
                    <div class="card-team">
                     <h3 class="team-card-title">Tom Ford</h3>
                     <p class="team-text">Frontend Developer</p>
@@ -183,7 +244,8 @@
                 </li>
             
                 <li class="team-item">
-                    <img src="./images/camilagarcia.jpg" alt="Camila Garcia avatar" width="264" height="260" />
+                    <img src="./images/retina/camilagarcia1.jpg"
+                    srcset="./images/retina/camilagarcia@2x.jpg" alt="Camila Garcia avatar" width="264" height="260" />
                    <div class="card-team">
                     <h3 class="team-card-title">Camila Garcia</h3>
                     <p class="team-text">Marketing</p>
@@ -221,7 +283,8 @@
                 </li>
             
                 <li class="team-item">
-                    <img src="./images/danielwilson.jpg" alt="Daniel Wilson avatar" width="264" height="260" />
+                    <img src="./images/retina/danielwilson1.jpg"
+                    srcset="./images/retina/danielwilson@2x.jpg" alt="Daniel Wilson avatar" width="264" height="260" />
                     <div class="card-team">
                     <h3 class="team-card-title">Daniel Wilson</h3>
                     <p class="team-text">UI Designer</p>
@@ -261,7 +324,7 @@
            </div>
         </section>
 
-        <section class="portfolio-section">
+        <section class="portfolio-section" hidden>
            <div class="container portfolio-container">
             <h2 class="portfolio-section-title">Our Portfolio</h2>
             <ul class="portfolio-list">
@@ -349,7 +412,7 @@
         </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" hidden>
     <div class="page-footer-container">    
     <div class="container-footer-logo">
         <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -406,7 +469,7 @@
     </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" hidden>
         <div class="modal">
         <button type="button" class="modal-icon-close">
             <svg class="close-icon" width="8" height="8">
