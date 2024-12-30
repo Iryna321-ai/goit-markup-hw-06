@@ -635,6 +635,9 @@ text-align: center;
             padding-top: 116px;
             padding-bottom: 76px;
         }
+        .team-container {
+            min-width: 584px;
+        }
     .team-list {
         align-items: center;
         justify-content: center;
