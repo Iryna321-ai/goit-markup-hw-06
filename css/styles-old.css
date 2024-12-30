@@ -1,21 +1,5 @@
 
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-}
-
- .footer-logo .logo-part {
-     color: #f4f4fd;
- }
-
-.button:hover,
-.button:focus {
-    background: #404bbf;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
 
 .team-container {
     align-items: center;
@@ -24,30 +8,6 @@
 .portfolio-item {
 width: calc((100% - 48px)/3);
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.page-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #2e2f42;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.page-footer-container {
-   display: flex;
-    align-items: baseline;
-}
-
-.container-footer-logo {
-    margin-right: 120px;
-}
-
-.footer-logo {
-    display: inline-block;
-    margin: 16px;
 }
 
 .footer-text{
@@ -80,31 +40,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 16px;
 }
 
-    .social-list-item-footer {
-    width: 40px;
-    height: 40px;
-    }
-
-    .social-list-link-footer {
-        width: 100%;
-        height: 100%;
-        background-color: #4d5ae5;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-.social-list-link-footer:hover,
-.social-list-link-footer:focus {
-    background-color: #31d0aa;
-    transform: background-color;
-}
-
-.social-list-icons {
-    fill: #f4f4fd;
-}
 
 .footer-text-subscribe {
     display: block;
@@ -144,10 +79,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-submit-btn:hover,
-.footer-submit-btn:focus {
-   background-color: #404BBF;
-}
+
 .footer-form-input {
     min-width: 264px;
     height: 40px;
@@ -164,18 +96,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-input::placeholder {
-    color: #FFFFFF;
-}
-
-.footer-form-input:hover,
-..footer-form-input:focus{
-    border: #31d0aa;
-}
-.footer-form-icon {
-    margin-left: 16px;
-    fill: #FFFFFF;
-}
 .backdrop {
   position: fixed;  
   top: 0;
