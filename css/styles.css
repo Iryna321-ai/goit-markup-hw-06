@@ -995,7 +995,11 @@ width: calc((100% - 3*24px)/4);
 
  @media screen and (min-width: 1158px) {
 .page-footer {
-    padding: 100px 156px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    padding: 100px 15px;
 }    
 .page-footer-container {
 flex-wrap: nowrap;
@@ -1212,6 +1216,8 @@ margin: 16px;
 }
 
 .form-user-checkbox {
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
